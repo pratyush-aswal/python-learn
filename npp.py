@@ -1,0 +1,20 @@
+import numpy as np
+a = np.array([1,2,3,4])
+print(a)
+print("-----------------")
+b = np.array([[9,8,7],[1,2,3]])
+print(b)
+print("-----------------")
+c = np.array([[[1,2],[3,4]],[[5,6],[7,8]]])
+print(c)
+print("shape ", c.shape)
+print("dim",c.ndim)
+print("len" , c.__len__())
+print("-----------------")
+
+d = np.arange(1,10,2)
+print(d)
+print("-----------------")
+
+e = np.linspace(0,1,6)
+print(e)
